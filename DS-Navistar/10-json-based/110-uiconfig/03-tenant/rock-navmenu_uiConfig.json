@@ -1,0 +1,204 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-navmenu_uiConfig",
+            "name": "rock-navmenu",
+            "type": "uiConfig",
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-navmenu",
+                            "tenant": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "system-dashboard": {
+                                    "visible": false
+                                },
+                                "visualizations": {
+                                    "visible": true,
+                                    "subNavMenu": {
+                                        "visualization": {
+                                            "visible": true,
+                                            "actions": {
+                                                "visualization-dashboard": {
+                                                    "visible": false
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "systemlog-viewer": {
+                                    "visible": false
+                                },
+                                "app-store": {
+                                    "visible": false
+                                },
+                                "reference-discovery": {
+                                    "visible": false
+                                },
+                                "configurations": {
+                                    "visible": true,
+                                    "subNavMenu": {
+                                        "dataModels": {
+                                            "visible": true,
+                                            "actions": {
+                                                "basemodel-digitalasset-dashboard": {
+                                                    "visible": false
+                                                },
+                                                "basemodel-thing-dashboard": {
+                                                    "visible": false
+                                                },
+                                                "basemodel-referencedata-dashboard": {
+                                                    "visible": false
+                                                },
+                                                "instancedatamodel-dashboard": {
+                                                    "visible": false
+                                                },
+                                                "basemodel-party-dashboard": {
+                                                    "visible": false
+                                                }
+                                            }
+                                        },
+                                        "systemReferenceData": {
+                                            "visible": true,
+                                            "actions": {
+                                                "taxonomymodel-dashboard": {
+                                                    "visible": false
+                                                }
+                                            }
+                                        },
+                                        "governance": {
+                                            "visible": true,
+                                            "actions": {
+                                                "govmodel-dashboard": {
+                                                    "visible": false
+                                                },
+                                                "workflowmodel-dashboard": {
+                                                    "visible": false
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "quick-actions": {
+                                    "subNavMenu": {
+                                        "upload": {
+                                            "title": "Upload",
+                                            "actions": {
+                                                "uploadSkus": {
+                                                    "dataRoute": "upload-excel",
+                                                    "name": "uploadSkus",
+                                                    "icon": "pebble-icon:ProductFilled",
+                                                    "contextData": {
+                                                        "itemContext": {
+                                                            "type": "item"
+                                                        }
+                                                    }
+                                                },
+                                                "uploadTenantSeed": {
+                                                    "dataRoute": "upload-tenant-seed",
+                                                    "visible": true,
+                                                    "displaySequence": 20,
+                                                    "name": "uploadTenantSeed",
+                                                    "icon": "pebble-icon:upload-assets-filled",
+                                                    "text": "Upload Tenant Seed",
+                                                    "contextData": {}
+                                                },
+                                                "uploadEntities": {
+                                                    "visible": true,
+                                                    "text": "Entities",
+                                                    "contextData": {}
+                                                }
+                                            }
+                                        },
+                                        "uploadmodel": {
+                                            "visible": false
+                                        },
+                                        "create": {
+                                            "title": "Create",
+                                            "actions": {
+                                                "createMarketCopy": {
+                                                    "dataRoute": "entity-create",
+                                                    "visible": true,
+                                                    "displaySequence": 40,
+                                                    "name": "createMarketCopy",
+                                                    "icon": "pebble-icon:KitFilled",
+                                                    "text": "Market Copy",
+                                                    "contextData": {
+                                                        "itemContext": {
+                                                            "type": "marketcopy"
+                                                        }
+                                                    }
+                                                },
+                                                "createItem": {
+                                                    "dataRoute": "entity-create",
+                                                    "visible": true,
+                                                    "displaySequence": 20,
+                                                    "name": "createItem",
+                                                    "icon": "pebble-icon:ProductFilled",
+                                                    "text": "Item",
+                                                    "contextData": {
+                                                        "itemContext": {
+                                                            "type": "item"
+                                                        }
+                                                    }
+                                                },
+                                                "createPriceSheet": {
+                                                    "dataRoute": "entity-create",
+                                                    "visible": true,
+                                                    "displaySequence": 30,
+                                                    "name": "createPriceSheet",
+                                                    "icon": "pebble-icon:KitFilled",
+                                                    "text": "Price Sheet",
+                                                    "contextData": {
+                                                        "itemContext": {
+                                                            "type": "pricesheet"
+                                                        }
+                                                    }
+                                                },
+                                                "createVendorItem": {
+                                                    "dataRoute": "entity-create",
+                                                    "visible": true,
+                                                    "displaySequence": 50,
+                                                    "name": "createVendorItem",
+                                                    "icon": "pebble-icon:KitFilled",
+                                                    "text": "Vendor Item",
+                                                    "contextData": {
+                                                        "itemContext": {
+                                                            "type": "vendoritem"
+                                                        }
+                                                    }
+                                                },
+                                                "createEntity": {
+                                                    "visible": false
+                                                }
+                                            }
+                                        },
+                                        "uploadXML": {
+                                            "dataRoute": "upload-xml-blob",
+                                            "visible": true,
+                                            "name": "uploadXML",
+                                            "icon": "pebble-icon:Documents",
+                                            "text": "PIES XML File",
+                                            "contextData": {}
+                                        }
+                                    }
+                                },
+                                "search-digitalasset": {
+                                    "visible": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

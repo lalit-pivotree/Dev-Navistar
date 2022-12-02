@@ -1,0 +1,48 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-create_vendoritem_uiConfig",
+            "name": "rock-entity-create_vendoritem",
+            "type": "uiConfig",
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "_DEFAULT",
+                            "channel": "_DEFAULT",
+                            "component": "rock-entity-create",
+                            "country": "_DEFAULT",
+                            "domain": "_DEFAULT",
+                            "entityType": "vendoritem",
+                            "relationship": "_DEFAULT",
+                            "role": "_DEFAULT",
+                            "tenant": "_DEFAULT",
+                            "user": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "properties": {
+                                    "matchConfig": {
+                                        "enable-match-step": true,
+                                        "match-type": "deterministic"
+                                    },
+                                    "attributeNames": [
+                                        "piespartnumber",
+                                        "piesbrandaaiaid",
+                                        "piessubbrandaaiaid",
+                                        "partsclassification"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

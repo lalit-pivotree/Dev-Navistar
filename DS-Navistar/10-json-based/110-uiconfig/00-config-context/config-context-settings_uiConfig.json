@@ -1,0 +1,43 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "config-context-settings_uiConfig",
+            "name": "config-context-settings",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "modifiedService": "configurationManageService"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "config-context-settings",
+                            "tenant": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "coalescePath": "component>>tenant>>domain>>app>>entityType>>relationship>>role>>user",
+                                "contextSchema": {
+                                    "component": "_DEFAULT",
+                                    "tenant": "_DEFAULT",
+                                    "domain": "_DEFAULT",
+                                    "app": "_DEFAULT",
+                                    "entityType": "_DEFAULT",
+                                    "relationship": "_DEFAULT",
+                                    "role": "_DEFAULT",
+                                    "user": "_DEFAULT"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

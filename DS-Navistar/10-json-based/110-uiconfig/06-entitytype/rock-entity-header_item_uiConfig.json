@@ -1,0 +1,78 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-header_item_uiConfig",
+            "name": "rock-entity-header_item",
+            "type": "uiConfig",
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-header",
+                            "entityType": "item"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "headerConfig": {
+                                    "createddate": {
+                                        "visible": true,
+                                        "attributeName": "createddate",
+                                        "noTrim": false,
+                                        "label": "Created Date"
+                                    },
+                                    "piesbrandlabel": {
+                                        "visible": true,
+                                        "attributeName": "piesbrandlabel",
+                                        "noTrim": false,
+                                        "label": "Brand label"
+                                    },
+                                    "piespartnumber": {
+                                        "visible": true,
+                                        "attributeName": "piespartnumber",
+                                        "noTrim": false,
+                                        "label": "Part Number"
+                                    },
+                                    "vendorownershipid": {
+                                        "visible": true,
+                                        "attributeName": "vendorownershipid",
+                                        "noTrim": false,
+                                        "label": "Vendor Ownership ID"
+                                    },
+                                    "sku": {
+                                        "visible": true,
+                                        "attributeName": "sku",
+                                        "noTrim": false,
+                                        "label": "SKU"
+                                    },
+                                    "piessubbrandlabel": {
+                                        "visible": true,
+                                        "attributeName": "piessubbrandlabel",
+                                        "noTrim": false,
+                                        "label": "Sub Brand Label"
+                                    },
+                                    "piespartterminologyid": {
+                                        "visible": true,
+                                        "attributeName": "piespartterminologyid",
+                                        "noTrim": false,
+                                        "label": "Part Terminology Name"
+                                    },
+                                    "partsclassification": {
+                                        "visible": true,
+                                        "attributeName": "partsclassification",
+                                        "noTrim": false,
+                                        "label": "Parts Classification"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
