@@ -1,0 +1,185 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+    {
+        "id": "rock-entity-relationship-search-result_hasimages_uiConfig",
+        "name": "rock-entity-relationship-search-result_hasimages",
+        "type": "uiConfig",
+        "properties": {
+            "createdService": "configurationManageService",
+            "createdBy": "navistar_admin@riversand.com_user",
+            "modifiedService": "configurationManageService",
+            "modifiedBy": "navistar_admin@riversand.com_user",
+            "createdDate": "2022-09-16T02:40:42.117-0500",
+            "modifiedDate": "2022-09-16T02:40:42.117-0500"
+        },
+        "data": {
+            "contexts": [
+                {
+                    "context": {
+                        "app": "_DEFAULT",
+                        "component": "rock-entity-relationship-search-result",
+                        "domain": "thing",
+                        "entityType": "_DEFAULT",
+                        "relationship": "hasimages",
+                        "role": "_DEFAULT",
+                        "tenant": "_DEFAULT",
+                        "user": "_DEFAULT"
+                    },
+                    "jsonData": {
+                        "config": {
+                            "addNewRelationConfig": {
+                                "visible": false
+                            },
+                            "addRelLovConfig": {
+                                "visible": false
+                            },
+                            "copyActionConfig": {
+                                "visible": false
+                            },
+                            "governDataConfig": {
+                                "visible": false
+                            },
+                            "gridConfig": {
+                                "advanceSelectionEnabled": false,
+                                "dataRequest": {
+                                    "typesCriterion": [
+                                        "image"
+                                    ]
+                                },
+                                "itemConfig": {
+                                    "image": "thumbnail",
+                                    "subtitle": "filetype",
+                                    "thumbnailId": "thumbnailid",
+                                    "sort": {
+                                        "default": [
+                                            {
+                                                "field": "createdate",
+                                                "sortType": "desc"
+                                            }
+                                        ]
+                                    },
+                                    "title": "property_originalfilename",
+                                    "fields": {
+                                        "typeExternalName": {
+                                            "visible": false
+                                        },
+                                        "name": {
+                                            "visible": false
+                                        },
+                                        "imagesize": {
+                                            "visible": true
+                                        },
+                                        "id": {
+                                            "visible": true
+                                        },
+                                        "filemodificationdatetime": {
+                                            "filterable": false,
+                                            "visible": true,
+                                            "name": "filemodificationdatetime",
+                                            "header": "Last Modified Date",
+                                            "editType": "",
+                                            "sortable": true,
+                                            "isRelatedEntityAttribute": true
+                                        },
+                                        "imagedescription": {
+                                            "filterable": false,
+                                            "visible": true,
+                                            "name": "imagedescription",
+                                            "header": "Image Description",
+                                            "editType": "",
+                                            "sortable": true,
+                                            "isRelatedEntityAttribute": true
+                                        },
+                                        "property_filename": {
+                                            "filterable": false,
+                                            "visible": true,
+                                            "name": "property_filename",
+                                            "header": "File Name",
+                                            "editType": "",
+                                            "sortable": true,
+                                            "isRelatedEntityAttribute": false
+                                        },
+                                        "order": {
+                                            "visible": true
+                                        }
+                                    }
+                                },
+                                "schemaType": "colModel",
+                                "viewConfig": {
+                                    "tile": {
+                                        "settings": {
+                                            "titlePattern": "{entity.attributes.id}",
+                                            "subTitlePattern": "{entity.attributes.property_filename} | {entity.attributes.imagesize}",
+                                            "actions": {
+                                                "deleteAssetRelationship": {
+                                                    "visible": true,
+                                                    "name": "deleteAssetRelationship",
+                                                    "icon": "pebble-icon:action-delete",
+                                                    "tooltip": "Delete Asset Relationship",
+                                                    "eventName": "delete-item",
+                                                    "text": ""
+                                                },
+                                                "delete": {
+                                                    "visible": true
+                                                }
+                                            }
+                                        },
+                                        "visible": true,
+                                        "fieldChanges": {}
+                                    },
+                                    "tabular": {
+                                        "settings": {
+                                            "actions": {
+                                                "deleteAssetRelationship": {
+                                                    "name": "delete",
+                                                    "icon": "pebble-icon:action-delete",
+                                                    "eventName": "delete-item"
+                                                },
+                                                "delete": {
+                                                    "visible": true
+                                                }
+                                            }
+                                        },
+                                        "visible": true,
+                                        "fieldChanges": {}
+                                    },
+                                    "list": {
+                                        "settings": {
+                                            "actions": {
+                                                "deleteAssetRelationship": {
+                                                    "visible": true,
+                                                    "name": "deleteAssetRelationship",
+                                                    "icon": "pebble-icon:action-delete",
+                                                    "tooltip": "Delete Asset Relationship",
+                                                    "eventName": "delete-item",
+                                                    "text": ""
+                                                },
+                                                "delete": {
+                                                    "visible": true
+                                                }
+                                            }
+                                        },
+                                        "visible": true,
+                                        "fieldChanges": {}
+                                    }
+                                },
+                                "viewMode": "Tabular",
+                                "title": "Images"
+                            },
+                            "addRelationConfig": {
+                                "mode": "businessFunction",
+                                "visible": true
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]
+}

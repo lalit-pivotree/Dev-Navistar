@@ -1,0 +1,54 @@
+{
+    "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+    },
+    "configObject": {
+        "id": "rock-relationship-network-viewer_thing_vendoritem_uiConfig",
+        "name": "rock-relationship-network-viewer_thing_vendoritem",
+        "type": "uiConfig",
+        "data": {
+            "contexts": [
+                {
+                    "context": {
+                        "app": "_DEFAULT",
+                        "channel": "_DEFAULT",
+                        "component": "rock-relationship-network-viewer",
+                        "country": "_DEFAULT",
+                        "domain": "thing",
+                        "entityType": "vendoritem",
+                        "relationship": "_DEFAULT",
+                        "role": "_DEFAULT",
+                        "tenant": "_DEFAULT",
+                        "user": "_DEFAULT"
+                    },
+                    "jsonData": {
+                        "config": {
+                            "relatedEntityNodes": {
+                                "item": {
+                                    "titlePattern": "{entity.attributes.piespartnumber}"
+                                }
+                            },
+                            "properties": {
+                                "selectedViewMode": "graph",
+                                "maxNodesPerRelationshipType": 5,
+                                "showZoomButtons": true,
+                                "selectedLevel": 1,
+                                "selectedRelTypes": [
+                                    "supersession#@#Supersession"
+                                ],
+                                "showNavigationArrows": false
+                            },
+                            "relationshipEdges": {
+                                "default": {
+                                    "titlePattern": "{relationship.name}"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

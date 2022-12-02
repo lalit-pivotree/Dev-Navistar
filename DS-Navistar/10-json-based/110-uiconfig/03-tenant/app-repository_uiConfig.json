@@ -1,0 +1,240 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "app-repository_uiConfig",
+            "name": "app-repository",
+            "type": "uiConfig",
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "app-repository",
+                            "tenant": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "govmodel-dashboard": {
+                                    "dataRoute": "govmodel-dashboard",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-dashboard/app-dashboard.html",
+                                        "name": "app-dashboard",
+                                        "properties": {
+                                            "mode": "edit"
+                                        }
+                                    },
+                                    "visible": true,
+                                    "noSettings": true,
+                                    "nonClosable": false,
+                                    "nonSharable": true,
+                                    "icon": "pebble-icon:dashboard-governance",
+                                    "title": "Governance Model Dashboard"
+                                },
+                                "search-referencedata": {
+                                    "dataRoute": "search-referencedata",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-entity-discovery/app-entity-discovery.html",
+                                        "name": "app-entity-discovery",
+                                        "properties": {
+                                            "domain": "referenceData"
+                                        }
+                                    },
+                                    "noSettings": false,
+                                    "nonClosable": false,
+                                    "nonSharable": true,
+                                    "icon": "pebble-icon:reference-data",
+                                    "title": "{[RefSRAppTit]}"
+                                },
+                                "basemodel-automotive-dashboard": {
+                                    "dataRoute": "basemodel-automotive-dashboard",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-dashboard/app-dashboard.html",
+                                        "name": "app-dashboard",
+                                        "properties": {
+                                            "mode": "edit"
+                                        }
+                                    },
+                                    "noSettings": true,
+                                    "nonClosable": false,
+                                    "nonSharable": true,
+                                    "icon": "pebble-icon:dashboard-data-model",
+                                    "title": "Automotive Data Model",
+                                    "enabled": false
+                                },
+                                "basemodel-thing-dashboard": {
+                                    "dataRoute": "basemodel-thing-dashboard",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-dashboard/app-dashboard.html",
+                                        "name": "app-dashboard",
+                                        "properties": {
+                                            "mode": "edit"
+                                        }
+                                    },
+                                    "noSettings": true,
+                                    "nonClosable": false,
+                                    "nonSharable": true,
+                                    "icon": "pebble-icon:dashboard-data-model",
+                                    "title": "Base Model Dashboard - Thing"
+                                },
+                                "search-thing": {
+                                    "dataRoute": "search-thing",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-entity-discovery/app-entity-discovery.html",
+                                        "name": "app-entity-discovery",
+                                        "properties": {
+                                            "domain": "thing"
+                                        }
+                                    },
+                                    "noSettings": false,
+                                    "nonClosable": false,
+                                    "nonSharable": true,
+                                    "subtitle": "{[ThiDomTit]}",
+                                    "icon": "pebble-icon:product-search",
+                                    "title": "{[SeaTxt]}",
+                                    "enabled": true
+                                },
+                                "workflowmodel-dashboard": {
+                                    "dataRoute": "workflowmodel-dashboard",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-dashboard/app-dashboard.html",
+                                        "name": "app-dashboard",
+                                        "properties": {
+                                            "mode": "edit"
+                                        }
+                                    },
+                                    "noSettings": true,
+                                    "nonClosable": false,
+                                    "nonSharable": true,
+                                    "icon": "pebble-icon:dashboard-workflow-model",
+                                    "title": "Workflow Model Dashboard"
+                                },
+                                "search-automotive": {
+                                    "dataRoute": "search-automotive",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-entity-discovery/app-entity-discovery.html",
+                                        "name": "app-entity-discovery",
+                                        "properties": {
+                                            "domain": "automotive"
+                                        }
+                                    },
+                                    "noSettings": false,
+                                    "nonClosable": false,
+                                    "nonSharable": true,
+                                    "subtitle": "Automotive Domain",
+                                    "icon": "pebble-icon:search-entity",
+                                    "title": "Search",
+                                    "enabled": true
+                                },
+                                "taxonomymodel-dashboard": {
+                                    "dataRoute": "taxonomymodel-dashboard",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-dashboard/app-dashboard.html",
+                                        "name": "app-dashboard",
+                                        "properties": {
+                                            "mode": "edit"
+                                        }
+                                    },
+                                    "noSettings": true,
+                                    "nonClosable": false,
+                                    "nonSharable": true,
+                                    "icon": "pebble-icon:dashboard-taxonomy-model",
+                                    "title": "Taxonomy Model Dashboard"
+                                },
+                                "asset-discovery": {
+                                    "dataRoute": "asset-discovery",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-assets-discovery/app-assets-discovery.html",
+                                        "name": "app-assets-discovery",
+                                        "properties": {}
+                                    },
+                                    "noSettings": true,
+                                    "nonClosable": false,
+                                    "nonSharable": true,
+                                    "icon": "pebble-icon:digital-asset-library",
+                                    "title": "Assets Search & Refine"
+                                },
+                                "basemodel-digitalasset-dashboard": {
+                                    "dataRoute": "basemodel-digitalasset-dashboard",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-dashboard/app-dashboard.html",
+                                        "name": "app-dashboard",
+                                        "properties": {
+                                            "mode": "edit"
+                                        }
+                                    },
+                                    "noSettings": true,
+                                    "nonClosable": false,
+                                    "nonSharable": true,
+                                    "icon": "pebble-icon:dashboard-data-model",
+                                    "title": "Base Model Dashboard - Digital Asset"
+                                },
+                                "basemodel-referencedata-dashboard": {
+                                    "dataRoute": "basemodel-referencedata-dashboard",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-dashboard/app-dashboard.html",
+                                        "name": "app-dashboard",
+                                        "properties": {
+                                            "mode": "edit"
+                                        }
+                                    },
+                                    "noSettings": true,
+                                    "nonClosable": false,
+                                    "nonSharable": true,
+                                    "icon": "pebble-icon:dashboard-data-model",
+                                    "title": "Base Model Dashboard - Reference Data"
+                                },
+                                "upload-xml": {
+                                    "dataRoute": "upload-xml",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-business-function/app-business-function.html",
+                                        "name": "app-business-function",
+                                        "properties": {
+                                            "name": "rock-wizard-file-retrieve",
+                                            "context": {}
+                                        }
+                                    },
+                                    "nonClosable": false,
+                                    "icon": "",
+                                    "title": "{[UplXmlTxt]}",
+                                    "enabled": false
+                                },
+                                "upload-xml-blob": {
+                                    "dataRoute": "upload-xml-blob",
+                                    "nonMinimizable": false,
+                                    "component": {
+                                        "path": "../../src/elements/app-business-function/app-business-function.html",
+                                        "name": "app-business-function",
+                                        "properties": {
+                                            "name": "rock-wizard-cloud-upload",
+                                            "context": {}
+                                        }
+                                    },
+                                    "nonClosable": false,
+                                    "icon": "",
+                                    "title": "Upload XML to Azure Blob",
+                                    "enabled": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

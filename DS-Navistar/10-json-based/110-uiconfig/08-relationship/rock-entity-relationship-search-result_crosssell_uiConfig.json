@@ -1,0 +1,199 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-relationship-search-result_crosssell_uiConfig",
+            "name": "rock-entity-relationship-search-result_crosssell",
+            "type": "uiConfig",
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-relationship-search-result",
+                            "relationship": "crosssell"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "addNewRelationConfig": {
+                                    "visible": false
+                                },
+                                "addRelLovConfig": {
+                                    "idField": "id",
+                                    "titlePattern": "{entity.attributes.piespartnumber}",
+                                    "visible": true
+                                },
+                                "copyActionConfig": {
+                                    "visible": false
+                                },
+                                "governDataConfig": {
+                                    "visible": false
+                                },
+                                "upDirectionConfig": {
+                                    "visible": true,
+                                    "viewConfig": {
+                                        "tile": {
+                                            "visible": false
+                                        },
+                                        "list": {
+                                            "visible": false
+                                        }
+                                    },
+                                    "gridConfig": {
+                                        "title": "Items",
+                                        "viewMode": "Tabular",
+                                        "fields": {
+                                            "thgshortdescription": {
+                                                "filterable": true,
+                                                "visible": false,
+                                                "name": "thgshortdescription",
+                                                "editType": "",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "typeExternalName": {
+                                                "visible": false
+                                            },
+                                            "piesbrandlabel": {
+                                                "filterable": true,
+                                                "visible": true,
+                                                "displaySequence": 1,
+                                                "name": "piesbrandlabel",
+                                                "editType": "",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            },
+                                            "piespartnumber": {
+                                                "filterable": true,
+                                                "visible": true,
+                                                "displaySequence": 2,
+                                                "name": "piespartnumber",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "id": {
+                                                "visible": false
+                                            },
+                                            "thgitemid": {
+                                                "filterable": true,
+                                                "visible": false,
+                                                "name": "thgitemid",
+                                                "editType": "",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "piespartterminologyid": {
+                                                "filterable": true,
+                                                "visible": true,
+                                                "displaySequence": 3,
+                                                "name": "piespartterminologyid",
+                                                "editType": "",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            }
+                                        },
+                                        "addRelationConfig": {
+                                            "mode": "lov",
+                                            "visible": true
+                                        }
+                                    }
+                                },
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "fields": {
+                                            "thgshortdescription": {
+                                                "filterable": true,
+                                                "visible": false,
+                                                "name": "thgshortdescription",
+                                                "editType": "",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "typeExternalName": {
+                                                "visible": false
+                                            },
+                                            "piesbrandlabel": {
+                                                "filterable": true,
+                                                "visible": true,
+                                                "displaySequence": 1,
+                                                "name": "piesbrandlabel",
+                                                "editType": "",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            },
+                                            "piespartnumber": {
+                                                "filterable": true,
+                                                "visible": true,
+                                                "displaySequence": 2,
+                                                "name": "piespartnumber",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "id": {
+                                                "visible": false
+                                            },
+                                            "thgitemid": {
+                                                "filterable": true,
+                                                "visible": false,
+                                                "name": "thgitemid",
+                                                "editType": "",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "piespartterminologyid": {
+                                                "filterable": true,
+                                                "visible": true,
+                                                "displaySequence": 3,
+                                                "name": "piespartterminologyid",
+                                                "editType": "",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            }
+                                        }
+                                    },
+                                    "schemaType": "colModel",
+                                    "viewConfig": {
+                                        "tile": {
+                                            "settings": {
+                                                "titlePattern": "{entity.attributes.property_originalfilename}",
+                                                "subTitlePattern": "{entity.attributes.mdmid} | {entity.attributes.mdmname} | {entity.attributes.description}"
+                                            },
+                                            "visible": false
+                                        },
+                                        "list": {
+                                            "visible": false
+                                        }
+                                    },
+                                    "viewMode": "Tabular"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

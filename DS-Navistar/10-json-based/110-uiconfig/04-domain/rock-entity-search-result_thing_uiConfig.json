@@ -1,0 +1,82 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-search-result_thing_uiConfig",
+            "name": "rock-entity-search-result_thing",
+            "type": "uiConfig",
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-search-result",
+                            "domain": "thing"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "governDataConfig": {
+                                    "showGovernDataToggle": false,
+                                    "entityNameAttribute": "piespartnumber"
+                                },
+                                "governAttributesCriterion": {
+                                    "include": [
+                                        ""
+                                    ]
+                                },
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "fields": {
+                                            "piesbrandlabel": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "isMetaDataColumn": false,
+                                                "name": "piesbrandlabel",
+                                                "header": "Brand Label",
+                                                "sortable": true
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            },
+                                            "piespartnumber": {
+                                                "filterable": false,
+                                                "visible": true,
+                                                "isMetaDataColumn": false,
+                                                "name": "piespartnumber",
+                                                "header": "Part Number",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "sortable": true
+                                            },
+                                            "vendorownershipid": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "isMetaDataColumn": false,
+                                                "name": "vendorownershipid",
+                                                "header": "Vendor Ownership ID",
+                                                "sortable": true
+                                            },
+                                            "id": {
+                                                "visible": false
+                                            },
+                                            "piessubbrandaaiaid": {
+                                                "filterable": false,
+                                                "visible": false,
+                                                "isMetaDataColumn": false,
+                                                "name": "piessubbrandaaiaid",
+                                                "header": "SubBrand aaiaid",
+                                                "sortable": true
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,222 @@
+{
+    "configObject": {
+        "id": "rock-entity-relationship-search-result_crossreference_uiConfig",
+        "name": "rock-entity-relationship-search-result_crossreference",
+        "type": "uiConfig",
+        "data": {
+            "contexts": [
+                {
+                    "context": {
+                        "app": "_DEFAULT",
+                        "channel": "_DEFAULT",
+                        "component": "rock-entity-relationship-search-result",
+                        "country": "_DEFAULT",
+                        "domain": "thing",
+                        "entityType": "_DEFAULT",
+                        "relationship": "crossreference",
+                        "role": "_DEFAULT",
+                        "tenant": "_DEFAULT",
+                        "user": "_DEFAULT"
+                    },
+                    "jsonData": {
+                        "config": {
+                            "upDirectionConfig": {
+                                "visible": true,
+                                "gridConfig": {
+                                    "itemConfig": {
+                                        "fields": {
+                                            "thgshortdescription": {
+                                                "filterable": true,
+                                                "visible": false,
+                                                "name": "thgshortdescription",
+                                                "editType": "",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "typeExternalName": {
+                                                "visible": false
+                                            },
+                                            "navistarpartnumber": {
+                                                "filterable": true,
+                                                "visible": false,
+                                                "displaySequence": 3,
+                                                "name": "navistarpartnumber",
+                                                "editType": "",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "piesbrandlabel": {
+                                                "filterable": true,
+                                                "visible": true,
+                                                "displaySequence": 1,
+                                                "name": "piesbrandlabel",
+                                                "editType": "",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "name": {
+                                                "visible": false
+                                            },
+                                            "piespartnumber": {
+                                                "filterable": true,
+                                                "visible": true,
+                                                "displaySequence": 2,
+                                                "name": "piespartnumber",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            },
+                                            "id": {
+                                                "visible": false
+                                            },
+                                            "thgitemid": {
+                                                "filterable": true,
+                                                "visible": false,
+                                                "name": "thgitemid",
+                                                "editType": "",
+                                                "linkTemplate": "entity-manage?id={id}&type={type}",
+                                                "readOnly": true,
+                                                "sortable": true,
+                                                "isRelatedEntityAttribute": true
+                                            }
+                                        }
+                                    },
+                                    "schemaType": "colModel",
+                                    "viewConfig": {
+                                        "tile": {
+                                            "settings": {
+                                                "titlePattern": "{entity.attributes.property_originalfilename}",
+                                                "subTitlePattern": "{entity.attributes.mdmid} | {entity.attributes.mdmname} | {entity.attributes.description}"
+                                            },
+                                            "visible": false
+                                        },
+                                        "list": {
+                                            "visible": false
+                                        }
+                                    },
+                                    "viewMode": "Tabular"
+                                }
+                            },
+                            "gridConfig": {
+                                "itemConfig": {
+                                    "fields": {
+                                        "thgshortdescription": {
+                                            "filterable": true,
+                                            "visible": false,
+                                            "name": "thgshortdescription",
+                                            "editType": "",
+                                            "readOnly": true,
+                                            "sortable": true,
+                                            "isRelatedEntityAttribute": true
+                                        },
+                                        "typeExternalName": {
+                                            "visible": false
+                                        },
+                                        "navistarpartnumber": {
+                                            "filterable": true,
+                                            "visible": false,
+                                            "displaySequence": 3,
+                                            "name": "navistarpartnumber",
+                                            "editType": "",
+                                            "readOnly": true,
+                                            "sortable": true,
+                                            "isRelatedEntityAttribute": true
+                                        },
+                                        "piesbrandlabel": {
+                                            "filterable": true,
+                                            "visible": true,
+                                            "displaySequence": 1,
+                                            "name": "piesbrandlabel",
+                                            "editType": "",
+                                            "readOnly": true,
+                                            "sortable": true,
+                                            "isRelatedEntityAttribute": true
+                                        },
+                                        "name": {
+                                            "visible": false
+                                        },
+                                        "piespartnumber": {
+                                            "filterable": true,
+                                            "visible": true,
+                                            "displaySequence": 2,
+                                            "name": "piespartnumber",
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "readOnly": true,
+                                            "sortable": true,
+                                            "isRelatedEntityAttribute": true
+                                        },
+                                        "id": {
+                                            "visible": false
+                                        },
+                                        "thgitemid": {
+                                            "filterable": true,
+                                            "visible": false,
+                                            "name": "thgitemid",
+                                            "editType": "",
+                                            "linkTemplate": "entity-manage?id={id}&type={type}",
+                                            "readOnly": true,
+                                            "sortable": true,
+                                            "isRelatedEntityAttribute": true
+                                        }
+                                    }
+                                },
+                                "schemaType": "colModel",
+                                "viewConfig": {
+                                    "tile": {
+                                        "settings": {
+                                            "titlePattern": "{entity.attributes.property_originalfilename}",
+                                            "subTitlePattern": "{entity.attributes.mdmid} | {entity.attributes.mdmname} | {entity.attributes.description}",
+                                            "actions": {
+                                                "delete": {
+                                                    "visible": true,
+                                                    "name": "delete",
+                                                    "icon": "pebble-icon:delete",
+                                                    "tooltip": "{[DltTxt]}",
+                                                    "eventName": "delete-item"
+                                                }
+                                            }
+                                        },
+                                        "visible": false
+                                    },
+                                    "tabular": {
+                                        "settings": {
+                                            "actions": {
+                                                "delete": {
+                                                    "visible": true,
+                                                    "name": "delete",
+                                                    "icon": "pebble-icon:delete",
+                                                    "tooltip": "{[DltTxt]}",
+                                                    "eventName": "delete-item"
+                                                }
+                                            }
+                                        },
+                                        "visible": true
+                                    },
+                                    "list": {
+                                        "settings": {
+                                            "actions": {
+                                                "delete": {
+                                                    "visible": true,
+                                                    "name": "delete",
+                                                    "icon": "pebble-icon:delete",
+                                                    "tooltip": "{[DltTxt]}",
+                                                    "eventName": "delete-item"
+                                                }
+                                            }
+                                        },
+                                        "visible": true
+                                    }
+                                },
+                                "viewMode": "Tabular"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
